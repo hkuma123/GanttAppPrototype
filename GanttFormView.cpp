@@ -108,7 +108,7 @@ void CGanttFormView::SetInitialData()
 
     job1 = new Job();
     job1->id        = 2;
-    job1->name      = "ì‹Æ|‚P";
+    job1->name      = "Task-01";
     job1->days      = 5;
     job1->startTime = CTime( 1999, 10, 3, 0,0,0 );
     job1->endTime   = CTime( 1999, 10, 6, 0,0,0 );
@@ -118,7 +118,7 @@ void CGanttFormView::SetInitialData()
 
     job2 = new Job();
     job2->id        = 2;
-    job2->name      = "ì‹Æ|‚Q";
+    job2->name      = "Task-02";
     job2->days      = 5;
     job2->startTime = CTime( 1999, 10, 6, 0,0,0 );
     job2->endTime   = CTime( 1999, 10, 9, 0,0,0 );
@@ -131,7 +131,7 @@ void CGanttFormView::SetInitialData()
 
     job3 = new Job();
     job3->id        = 2;
-    job3->name      = "ì‹Æ|‚R";
+    job3->name      = "Task-03";
     job3->days      = 5;
     job3->startTime = CTime( 1999, 10,9, 0,0,0 );
     job3->endTime   = CTime( 1999, 10,12, 0,0,0 );
@@ -147,7 +147,7 @@ void CGanttFormView::SetInitialData()
 
     job4 = new Job();
     job4->id        = 5;
-    job4->name      = "ì‹Æ|‚S";
+    job4->name      = "Task-04";
     job4->days      = 4;
     job4->startTime = CTime( 1999, 10,12, 0,0,0 );
     job4->endTime   = CTime( 1999, 10,15, 0,0,0 );
