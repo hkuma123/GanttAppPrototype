@@ -80,7 +80,7 @@ void CItemTitleWnd::OnPaint()
         if ( wy > winrect.bottom ) break ;
         pDC->MoveTo( 0, wy );
         pDC->LineTo( winrect.right, wy );
-        wsprintf( wbuff, "ƒ‰ƒCƒ“ID-%02d ", m_startItemNo+i-1 );
+        wsprintf( wbuff, "ResourceID-%02d ", m_startItemNo+i-1 );
         pDC->TextOut( fHeight/2, wy-fHeight-fHeight/2-6, wbuff, strlen(wbuff) );
         
     }
